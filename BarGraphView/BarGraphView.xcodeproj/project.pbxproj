@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA7EDD701D4A012A0087EB57 /* NSDate+BarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7EDD6F1D4A012A0087EB57 /* NSDate+BarGraphView.m */; };
+		BA9F32D41D3F74DE00E2309D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9F32D31D3F74DE00E2309D /* main.m */; };
+		BA9F32D71D3F74DE00E2309D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9F32D61D3F74DE00E2309D /* AppDelegate.m */; };
+		BA9F32DA1D3F74DE00E2309D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9F32D91D3F74DE00E2309D /* ViewController.m */; };
+		BA9F32DD1D3F74DE00E2309D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9F32DB1D3F74DE00E2309D /* Main.storyboard */; };
+		BA9F32DF1D3F74DE00E2309D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9F32DE1D3F74DE00E2309D /* Assets.xcassets */; };
+		BA9F32E21D3F74DE00E2309D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9F32E01D3F74DE00E2309D /* LaunchScreen.storyboard */; };
+		BA9F32EE1D40615800E2309D /* UIColor+BarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9F32ED1D40615800E2309D /* UIColor+BarGraphView.m */; };
+		BA9F32F51D4066B800E2309D /* BarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9F32F41D4066B800E2309D /* BarGraphView.m */; };
+		BAFA05C01D47452000ABF76B /* LineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA05BF1D47452000ABF76B /* LineGraphView.m */; };
+		BAFA05C31D47623C00ABF76B /* GraphCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA05C21D47623C00ABF76B /* GraphCommonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA7EDD6E1D4A012A0087EB57 /* NSDate+BarGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BarGraphView.h"; sourceTree = "<group>"; };
+		BA7EDD6F1D4A012A0087EB57 /* NSDate+BarGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BarGraphView.m"; sourceTree = "<group>"; };
+		BA9F32CF1D3F74DE00E2309D /* BarGraphView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarGraphView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9F32D31D3F74DE00E2309D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA9F32D51D3F74DE00E2309D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA9F32D61D3F74DE00E2309D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA9F32D81D3F74DE00E2309D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA9F32D91D3F74DE00E2309D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA9F32DC1D3F74DE00E2309D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA9F32DE1D3F74DE00E2309D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA9F32E11D3F74DE00E2309D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA9F32E31D3F74DE00E2309D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9F32EC1D40615800E2309D /* UIColor+BarGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BarGraphView.h"; sourceTree = "<group>"; };
+		BA9F32ED1D40615800E2309D /* UIColor+BarGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BarGraphView.m"; sourceTree = "<group>"; };
+		BA9F32EF1D4063F100E2309D /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		BA9F32F31D4066B800E2309D /* BarGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarGraphView.h; sourceTree = "<group>"; };
+		BA9F32F41D4066B800E2309D /* BarGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarGraphView.m; sourceTree = "<group>"; };
+		BAFA05BE1D47452000ABF76B /* LineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphView.h; sourceTree = "<group>"; };
+		BAFA05BF1D47452000ABF76B /* LineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphView.m; sourceTree = "<group>"; };
+		BAFA05C11D47623C00ABF76B /* GraphCommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphCommonView.h; sourceTree = "<group>"; };
+		BAFA05C21D47623C00ABF76B /* GraphCommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphCommonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA9F32CC1D3F74DE00E2309D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA9F32C61D3F74DE00E2309D = {
+			isa = PBXGroup;
+			children = (
+				BA9F32D11D3F74DE00E2309D /* BarGraphView */,
+				BA9F32D01D3F74DE00E2309D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA9F32D01D3F74DE00E2309D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA9F32CF1D3F74DE00E2309D /* BarGraphView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA9F32D11D3F74DE00E2309D /* BarGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				BA9F32D51D3F74DE00E2309D /* AppDelegate.h */,
+				BA9F32D61D3F74DE00E2309D /* AppDelegate.m */,
+				BA9F32EF1D4063F100E2309D /* common.h */,
+				BA7EDD6E1D4A012A0087EB57 /* NSDate+BarGraphView.h */,
+				BA7EDD6F1D4A012A0087EB57 /* NSDate+BarGraphView.m */,
+				BA9F32EC1D40615800E2309D /* UIColor+BarGraphView.h */,
+				BA9F32ED1D40615800E2309D /* UIColor+BarGraphView.m */,
+				BA9F32F31D4066B800E2309D /* BarGraphView.h */,
+				BA9F32F41D4066B800E2309D /* BarGraphView.m */,
+				BA9F32D81D3F74DE00E2309D /* ViewController.h */,
+				BA9F32D91D3F74DE00E2309D /* ViewController.m */,
+				BAFA05BE1D47452000ABF76B /* LineGraphView.h */,
+				BAFA05BF1D47452000ABF76B /* LineGraphView.m */,
+				BAFA05C11D47623C00ABF76B /* GraphCommonView.h */,
+				BAFA05C21D47623C00ABF76B /* GraphCommonView.m */,
+				BA9F32DB1D3F74DE00E2309D /* Main.storyboard */,
+				BA9F32DE1D3F74DE00E2309D /* Assets.xcassets */,
+				BA9F32E01D3F74DE00E2309D /* LaunchScreen.storyboard */,
+				BA9F32E31D3F74DE00E2309D /* Info.plist */,
+				BA9F32D21D3F74DE00E2309D /* Supporting Files */,
+			);
+			path = BarGraphView;
+			sourceTree = "<group>";
+		};
+		BA9F32D21D3F74DE00E2309D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA9F32D31D3F74DE00E2309D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA9F32CE1D3F74DE00E2309D /* BarGraphView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9F32E61D3F74DE00E2309D /* Build configuration list for PBXNativeTarget "BarGraphView" */;
+			buildPhases = (
+				BA9F32CB1D3F74DE00E2309D /* Sources */,
+				BA9F32CC1D3F74DE00E2309D /* Frameworks */,
+				BA9F32CD1D3F74DE00E2309D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarGraphView;
+			productName = BarGraphView;
+			productReference = BA9F32CF1D3F74DE00E2309D /* BarGraphView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA9F32C71D3F74DE00E2309D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.cxw;
+				TargetAttributes = {
+					BA9F32CE1D3F74DE00E2309D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BA9F32CA1D3F74DE00E2309D /* Build configuration list for PBXProject "BarGraphView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA9F32C61D3F74DE00E2309D;
+			productRefGroup = BA9F32D01D3F74DE00E2309D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA9F32CE1D3F74DE00E2309D /* BarGraphView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA9F32CD1D3F74DE00E2309D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9F32E21D3F74DE00E2309D /* LaunchScreen.storyboard in Resources */,
+				BA9F32DF1D3F74DE00E2309D /* Assets.xcassets in Resources */,
+				BA9F32DD1D3F74DE00E2309D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA9F32CB1D3F74DE00E2309D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9F32F51D4066B800E2309D /* BarGraphView.m in Sources */,
+				BAFA05C01D47452000ABF76B /* LineGraphView.m in Sources */,
+				BA9F32DA1D3F74DE00E2309D /* ViewController.m in Sources */,
+				BA9F32D71D3F74DE00E2309D /* AppDelegate.m in Sources */,
+				BA7EDD701D4A012A0087EB57 /* NSDate+BarGraphView.m in Sources */,
+				BA9F32D41D3F74DE00E2309D /* main.m in Sources */,
+				BA9F32EE1D40615800E2309D /* UIColor+BarGraphView.m in Sources */,
+				BAFA05C31D47623C00ABF76B /* GraphCommonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA9F32DB1D3F74DE00E2309D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9F32DC1D3F74DE00E2309D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA9F32E01D3F74DE00E2309D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9F32E11D3F74DE00E2309D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA9F32E41D3F74DE00E2309D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA9F32E51D3F74DE00E2309D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA9F32E71D3F74DE00E2309D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarGraphView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxw.BarGraphView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA9F32E81D3F74DE00E2309D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarGraphView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxw.BarGraphView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA9F32CA1D3F74DE00E2309D /* Build configuration list for PBXProject "BarGraphView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9F32E41D3F74DE00E2309D /* Debug */,
+				BA9F32E51D3F74DE00E2309D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9F32E61D3F74DE00E2309D /* Build configuration list for PBXNativeTarget "BarGraphView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9F32E71D3F74DE00E2309D /* Debug */,
+				BA9F32E81D3F74DE00E2309D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA9F32C71D3F74DE00E2309D /* Project object */;
+}
