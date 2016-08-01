@@ -4,7 +4,6 @@ Pod::Spec.new do |s|
   s.summary      = "生成年月周日等折线图和柱状图"
   s.homepage     = "https://github.com/qscxwei/BarGraphView"
   s.license      = "MIT"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author    = "qscxwei"
   s.platform     = :ios
   s.source       = { :git => "https://github.com/qscxwei/BarGraphView.git", :tag => "0.0.1" }
